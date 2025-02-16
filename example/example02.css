@@ -1,0 +1,74 @@
+html,
+body {
+  background: #ffeead !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-columns: 100px 100px; */
+  /* grid-template-columns: 100px 100px 100px; */
+  /* grid-template-columns: 20% 80%; */
+  /* grid-template-columns: 20% 60% 20%; */
+  /* grid-template-columns: 20% 60%; */
+  /* grid-template-columns: auto auto auto; */
+  /* grid-template-columns: 20% auto 20%; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-template-columns: 1fr 3fr 2fr; */
+  /* grid-template-rows: 100px 100px 100px; */
+  /* grid-template-rows: 300px 300px; */
+  /* short hand of grid-template-columns and grid-template-row */
+  /* grid-template:  grid-template-columns / grid-template-rows */
+  grid-template: 1fr 3fr 2fr / 2fr 1fr 1fr;
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  /* grid-row-gap: 5px;
+  grid-column-gap: 3px; */
+  /* Short hand of gap */
+  grid-gap: 5px;
+}
+
+.one {
+  background: #f8b400;
+  color: #fff;
+  padding: 10px;
+}
+
+.two {
+  background: #03b839;
+  color: #fff;
+  padding: 10px;
+  /* border-radius: 5px; */
+}
+
+.three {
+  background: purple;
+  color: #fff;
+  padding: 10px;
+  /* border-radius: 5px; */
+}
+
+.four {
+  background: chocolate;
+  color: #fff;
+  padding: 10px;
+  /* border-radius: 5px; */
+}
+
+.five {
+  background: royalblue;
+  color: #fff;
+  padding: 10px;
+  /* border-radius: 5px; */
+}
+
+.six {
+  background: #8c13fd;
+  color: #fff;
+  padding: 10px;
+  /* border-radius: 5px; */
+}
